@@ -23,12 +23,12 @@ Scapy: is a Python Library for Packet-Manipulation/Traffic-Sniffing
 -- Issues: Intensive data for all types of
 
 
-#### 7. Using Headless Web Browsers Like [Puppenteer.js](https://pptr.dev) [PlayWright](https://playwright.dev)
+#### 7. Using Headless Web Browsers Like [Puppeteer.js](https://pptr.dev) [PlayWright](https://playwright.dev)
 - Working on DNS Level
 -- Issues: Intensive data for all types of
 
 
-#### 8. Using Automation Tools [Selenium](https://www.selenium.dev)
+#### 8. Using Automation Frameworks/Tools like [Selenium](https://www.selenium.dev)
 - Working on DNS Level
 -- Issues: Intensive data for all types of
 
