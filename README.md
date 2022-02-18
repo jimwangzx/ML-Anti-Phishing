@@ -8,9 +8,29 @@ Scapy: is a Python Library for Packet-Manipulation/Traffic-Sniffing
 ![scapy screenshot](./assets/scapy.png)
 - [Script to sniffing all HTTP Packets](./HTTP-Sniffer.py) : Sniffing all packets from WLAN0 Network Interface Card(NIC) and filtering HTTP packets only.
 
-#### 2. Creating HTTP Proxy Server with [ExpressJS](http://expressjs.com) over [NodeJS](https://nodejs.org/en)
-- [Source Code](./proxy.js)
 
+###### Steps
+```bash
+$ pip install venv
+$ python3 -m venv scapy-env
+$ source scapy-env/bin/activate
+$ pip install scapy
+$ python3 ./scapy.py
+```
+
+#### 2. Creating HTTP Proxy Server with [ExpressJS](http://expressjs.com) over [NodeJS](https://nodejs.org/en)
+![proxy.js screenshot](./assets/node-proxy.png)
+- [Source Code](./nodejs-http-proxy/proxy.js)
+
+###### Steps
+1. install NodeJS
+
+```bash
+$ cd nodejs-http-proxy/
+$ npm init -y
+$ npm install express
+$ node proxy.js
+```
 #### 3. Using [Squid Proxy](http://www.squid-cache.org)
 
 #### 4. Using [MITM Proxy](https://mitmproxy.org)
