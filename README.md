@@ -34,5 +34,4 @@ Scapy: is a Python Library for Packet-Manipulation/Traffic-Sniffing
 
 
 ### Sammary and Recommended Solution:
-- 
 => Direct Communication with Web Browser APIs to Extract Domain name of every URL by making Web Browser Extension/Plugin.
