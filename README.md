@@ -5,6 +5,7 @@ Machine Learning Model for Anti-Phishing
 
 #### 1. Using [Scapy](https://scapy.net)
 Scapy: is a Python Library for Packet-Manipulation/Traffic-Sniffing
+![scapy screenshot](./assets/scapy.png)
 - [Script to sniffing all HTTP Packets](./HTTP-Sniffer.py) : Sniffing all packets from WLAN0 Network Interface Card(NIC) and filtering HTTP packets only.
 
 #### 2. Creating HTTP Proxy Server with [ExpressJS](http://expressjs.com) over [NodeJS](https://nodejs.org/en)
@@ -35,3 +36,4 @@ Scapy: is a Python Library for Packet-Manipulation/Traffic-Sniffing
 
 ### Sammary and Recommended Solution:
 => Direct Communication with Web Browser APIs to Extract Domain name of every URL by making Web Browser Extension/Plugin.
+

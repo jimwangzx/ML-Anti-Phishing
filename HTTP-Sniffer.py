@@ -15,4 +15,4 @@ def process_packet(packet):
 
 #sniff(prn=lambda x: x.summary())
 #sniff(filter='port 80', prn=process_packet, store=False)
-sniff(iface="wlan0",filter="port 80", prn=process_packet, store=False)
+sniff(iface="wlo1",filter="port 80", prn=process_packet, store=False)
